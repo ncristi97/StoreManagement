@@ -17,5 +17,5 @@ public class ProductService {
     public Product add(Product p) {log.info("Adding product {}",p.getName());return repo.save(p);}
     public void delete(Long id) {log.warn("Deleting product {}",id);repo.deleteById(id);}
     public Product changeName(Long id, String name) {Product p=findById(id);p.setName(name);return repo.save(p);}
-    public Product changePrice(Long id, double price) {Product p=findById(id);p.setPrice(price);return repo.save(p);}
+    public Product changePrice(Long id, int price) {Product p=findById(id);p.setPrice(price);return repo.save(p);}
 }
