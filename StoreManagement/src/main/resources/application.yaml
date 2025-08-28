@@ -1,0 +1,6 @@
+server:
+  port: 8080   # default anyway, but explicit
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
