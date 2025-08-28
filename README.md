@@ -17,7 +17,7 @@ It uses **Spring Security** for authentication and authorization, **Spring Data 
 
 ## How to use the application
 
-###Build and run using Maven
+### Build and run using Maven
 mvn clean spring-boot:run
 
 ### API endpoints for USER
